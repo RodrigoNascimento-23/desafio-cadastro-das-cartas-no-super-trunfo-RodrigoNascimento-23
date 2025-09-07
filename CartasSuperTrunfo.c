@@ -122,5 +122,15 @@ int main (){
     printf("Densidade Populacional: Carta 2 venceu (%d) \n",resultadodensPop);
     printf("PIB Per Capita: Carta 1 venceu (%d) \n",resultadoPIBpercap);
     printf("Super Poder: Carta 1 venceu (%d) \n",resultadoSuperPoder);
-    
+
+    printf("\n");
+
+    printf("Comparação de Cartas(atributo:POPULAÇÃO) \n");
+    printf("Carta 1 - %s (%s) : %.0f \n",Cidade,Estado,População);
+    printf("Carta 2 - %s (%s) : %.0f \n",Cidade2,Estado2,População2);
+    if(População > População2){
+        printf("Carta 1 (%s) venceu!",Cidade);
+    }else{
+        printf("Carta 2 (%s) venceu!",Cidade2);
+    }
     }
